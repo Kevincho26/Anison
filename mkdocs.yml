@@ -1,0 +1,20 @@
+site_name: Mi Colección de Playlists
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
