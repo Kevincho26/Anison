@@ -1,46 +1,58 @@
-﻿# Anime Music Collection
+﻿---
+hide:
+  - toc
+---
 
-Esta es una colecciÃ³n de playlists (una por serie).  
-Usa el buscador (lupa) para encontrar rÃ¡pido una serie.
+# Anime Music Collection
 
-## Empezar aquÃ­: Anime Gems
+Esta es una colección de playlists (una por serie).  
+Usa el buscador (lupa) para encontrar rápido una serie.
+
+## Best songs: Anime Gems
 
 === "Spotify"
-    <iframe style="border-radius:12px"
-      src="https://open.spotify.com/embed/playlist/26faWsnq9PEzpOImFqkUbz"
-      width="100%" height="352" frameborder="0"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"></iframe>
+	<div class="playlist-actions" markdown>
+		<a class="md-button md-button--primary"
+		href="https://open.spotify.com/playlist/26faWsnq9PEzpOImFqkUbz"
+		target="_blank" rel="noopener">
+		▶ Abrir playlist en Spotify
+		</a>
+	</div>
 
-    [â–¶ Abrir en Spotify](https://open.spotify.com/playlist/26faWsnq9PEzpOImFqkUbz)
 
+    <iframe
+		src="https://open.spotify.com/embed/playlist/26faWsnq9PEzpOImFqkUbz"
+		title="Spotify playlist player"
+		style="width:100%; aspect-ratio:16/9; border:0; border-radius:12px; overflow:hidden; display:block;"
+		allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+		loading="lazy">
+	</iframe>
+
+
+   
 === "YouTube"
-    *(pendiente: aÃ±ade el link de YouTube a esta playlist)*
+	<div class="playlist-actions" markdown>
+		<a class="md-button md-button--primary"
+		href="https://www.youtube.com/playlist?list=PLvZvtO-L5oh7CEvceL5FQg91cHzpOA7pR"
+		target="_blank" rel="noopener">
+		▶ Ver playlist completa en YouTube
+	</a>
+	</div>
 
-## Series (Aâ€“Z)
+	<iframe
+		src="https://www.youtube.com/embed?listType=playlist&list=PLvZvtO-L5oh7CEvceL5FQg91cHzpOA7pR"
+		title="YouTube playlist"
+		style="width:100%; aspect-ratio:16/9; border:0;"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		referrerpolicy="strict-origin-when-cross-origin"
+		allowfullscreen
+		loading="lazy">
+	</iframe>
 
-Ve a **Series** en el menÃº, o entra directo a una letra:
+	
+	
+## Series
 
-- [0-9](series/0-9/index.md)
-- [A](series/A/index.md)
-- [B](series/B/index.md)
-- [C](series/C/index.md)
-- [D](series/D/index.md)
-- [E](series/E/index.md)
-- [F](series/F/index.md)
-- [G](series/G/index.md)
-- [H](series/H/index.md)
-- [J](series/J/index.md)
-- [K](series/K/index.md)
-- [L](series/L/index.md)
-- [M](series/M/index.md)
-- [N](series/N/index.md)
-- [O](series/O/index.md)
-- [P](series/P/index.md)
-- [R](series/R/index.md)
-- [S](series/S/index.md)
-- [T](series/T/index.md)
-- [U](series/U/index.md)
-- [V](series/V/index.md)
-- [W](series/W/index.md)
-
+<div class="playlist-actions" markdown>
+[📚 Ver catálogo A–Z](series/index.md){ .md-button .md-button--primary }
+</div>

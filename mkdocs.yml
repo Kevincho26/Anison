@@ -1,5 +1,6 @@
-site_name: Mi Colección de Playlists
+site_name: My Anime Music Collection
 site_url: https://kevincho26.github.io/anime_music_collection/
+use_directory_urls: true
 
 theme:
   name: material
@@ -7,6 +8,10 @@ theme:
     - navigation.indexes
     - navigation.sections
     - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
 
 plugins:
   - search
@@ -20,7 +25,38 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-      
+
 extra_css:
   - stylesheets/extra.css
   - stylesheets/heroes_extra.css
+
+extra_javascript:
+  - javascripts/open_az_details.js
+  - javascripts/search_thumbs.js
+
+nav:
+  - Home: index.md
+  - Series:
+      - Catálogo A–Z: series/index.md
+      - 0–9: "series/#az-0-9"
+      - A: "series/#az-a"
+      - B: "series/#az-b"
+      - C: "series/#az-c"
+      - D: "series/#az-d"
+      - E: "series/#az-e"
+      - F: "series/#az-f"
+      - G: "series/#az-g"
+      - H: "series/#az-h"
+      - J: "series/#az-j"
+      - K: "series/#az-k"
+      - L: "series/#az-l"
+      - M: "series/#az-m"
+      - N: "series/#az-n"
+      - O: "series/#az-o"
+      - P: "series/#az-p"
+      - R: "series/#az-r"
+      - S: "series/#az-s"
+      - T: "series/#az-t"
+      - U: "series/#az-u"
+      - V: "series/#az-v"
+      - W: "series/#az-w"

@@ -7,13 +7,27 @@
 <!-- HERO:END -->
 
 === "Spotify"
-    <iframe style="border-radius:12px"
+    <iframe
       src="https://open.spotify.com/embed/playlist/6KSTd20d0Es5eXdrSaupnY"
-      width="100%" height="352" frameborder="0"
+      title="Spotify playlist player"
+      style="width:100%; aspect-ratio:21/9; border:0; border-radius:12px; overflow:hidden; display:block;"
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"></iframe>
-
-    [▶ Abrir en Spotify](https://open.spotify.com/playlist/6KSTd20d0Es5eXdrSaupnY)
-
+      loading="lazy">
+    </iframe>
+    
+    <div class="playlist-actions" markdown>
+    [▶ Abrir en Spotify](https://open.spotify.com/playlist/6KSTd20d0Es5eXdrSaupnY){ .md-button .md-button--primary }
+    </div>
 === "YouTube"
-    *(pendiente: añade el link de YouTube a esta playlist)*
+    <iframe
+      src="https://www.youtube.com/embed/videoseries?list=PLvZvtO-L5oh68wPm-PDdG9fV_1YLBsRu8&rel=0"
+      title="YouTube playlist player"
+      style="width:100%; aspect-ratio:16/9; border:0; border-radius:12px; overflow:hidden; display:block;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      loading="lazy">
+    </iframe>
+    
+    <div class="playlist-actions" markdown>
+    [▶ Ver playlist en YouTube](https://www.youtube.com/playlist?list=PLvZvtO-L5oh68wPm-PDdG9fV_1YLBsRu8){ .md-button }
+    </div>

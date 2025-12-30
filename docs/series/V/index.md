@@ -1,9 +1,7 @@
-# V
+---
+hide:
+  - toc
+---
 
-<div class="grid cards" markdown>
-
--   [![Vinland Saga](../../assets/thumbs/Vinland%20Saga.jpg){ width=200 }](vinland-saga.md)
-
-    **[Vinland Saga](vinland-saga.md)**
-
-</div>
+<meta http-equiv="refresh" content="0; url=../#az-v">
+<p>Redirigiendo al catálogo… <a href="../#az-v">Abrir V</a></p>

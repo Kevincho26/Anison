@@ -1,9 +1,7 @@
-# W
+---
+hide:
+  - toc
+---
 
-<div class="grid cards" markdown>
-
--   [![Wind Breaker](../../assets/thumbs/Wind%20Breaker.jpg){ width=200 }](wind-breaker.md)
-
-    **[Wind Breaker](wind-breaker.md)**
-
-</div>
+<meta http-equiv="refresh" content="0; url=../#az-w">
+<p>Redirigiendo al catálogo… <a href="../#az-w">Abrir W</a></p>

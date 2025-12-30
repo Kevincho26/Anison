@@ -1,9 +1,7 @@
-# 0-9
+---
+hide:
+  - toc
+---
 
-<div class="grid cards" markdown>
-
--   [![86: Eighty Six](../../assets/thumbs/86.jpg){ width=200 }](86-eighty-six.md)
-
-    **[86: Eighty Six](86-eighty-six.md)**
-
-</div>
+<meta http-equiv="refresh" content="0; url=../#az-0-9">
+<p>Redirigiendo al catálogo… <a href="../#az-0-9">Abrir 0-9</a></p>

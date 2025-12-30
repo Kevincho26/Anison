@@ -1,9 +1,7 @@
-# J
+---
+hide:
+  - toc
+---
 
-<div class="grid cards" markdown>
-
--   [![Jujutsu Kaisen](../../assets/thumbs/Jujutsu%20Kaisen.jpg){ width=200 }](jujutsu-kaisen.md)
-
-    **[Jujutsu Kaisen](jujutsu-kaisen.md)**
-
-</div>
+<meta http-equiv="refresh" content="0; url=../#az-j">
+<p>Redirigiendo al catálogo… <a href="../#az-j">Abrir J</a></p>

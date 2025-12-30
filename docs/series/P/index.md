@@ -1,9 +1,7 @@
-# P
+---
+hide:
+  - toc
+---
 
-<div class="grid cards" markdown>
-
--   [![Psycho Pass](../../assets/thumbs/Psychopass.jpg){ width=200 }](psycho-pass.md)
-
-    **[Psycho Pass](psycho-pass.md)**
-
-</div>
+<meta http-equiv="refresh" content="0; url=../#az-p">
+<p>Redirigiendo al catálogo… <a href="../#az-p">Abrir P</a></p>
