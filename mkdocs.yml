@@ -4,11 +4,30 @@ use_directory_urls: true
 
 theme:
   name: material
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - scheme: default
+      primary: white
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
   features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
     - navigation.indexes
     - navigation.sections
     - navigation.top
-    - toc.integrate
+    - toc.follow
     - search.suggest
     - search.highlight
     - search.share
@@ -20,43 +39,19 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
   - toc:
-      permalink: true
+      permalink: false
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
 
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/heroes_extra.css
 
 extra_javascript:
+  - javascripts/header_title_page.js
   - javascripts/open_az_details.js
   - javascripts/search_thumbs.js
-
-nav:
-  - Home: index.md
-  - Series:
-      - Catálogo A–Z: series/index.md
-      - 0–9: "series/#az-0-9"
-      - A: "series/#az-a"
-      - B: "series/#az-b"
-      - C: "series/#az-c"
-      - D: "series/#az-d"
-      - E: "series/#az-e"
-      - F: "series/#az-f"
-      - G: "series/#az-g"
-      - H: "series/#az-h"
-      - J: "series/#az-j"
-      - K: "series/#az-k"
-      - L: "series/#az-l"
-      - M: "series/#az-m"
-      - N: "series/#az-n"
-      - O: "series/#az-o"
-      - P: "series/#az-p"
-      - R: "series/#az-r"
-      - S: "series/#az-s"
-      - T: "series/#az-t"
-      - U: "series/#az-u"
-      - V: "series/#az-v"
-      - W: "series/#az-w"
+  - javascripts/az_nav.js

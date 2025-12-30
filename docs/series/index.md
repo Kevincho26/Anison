@@ -4,6 +4,7 @@ search:
 hide:
   - toc
 ---
+<nav class="amc-az-wrap" data-amc-az-nav aria-label="Índice A–Z"></nav>
 
 # Catálogo de Series (A–Z)
 

@@ -1,28 +1,95 @@
-/* Center content inside Material cards grid */
-.md-typeset .grid.cards > ul > li {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+/* =========================================================
+   Minimal baseline: typography + layout
+   ========================================================= */
+
+.md-content {
+  max-width: 1100px;
 }
 
+.md-typeset {
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.md-typeset h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: .45rem;
+}
+
+.md-typeset h2 {
+  font-weight: 750;
+  letter-spacing: -0.01em;
+  margin-top: 1.6rem;
+}
+
+.md-typeset h3 {
+  font-weight: 700;
+}
+
+.md-typeset p {
+  margin: .65rem 0;
+}
+
+/* Links sobrios */
+.md-typeset a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* Scroll suave para anchors A–Z */
+html { scroll-behavior: smooth; }
+
+/* =========================================================
+   Embeds: look "card" minimal
+   ========================================================= */
+
+iframe{
+  border-radius: 14px;
+  box-shadow: 0 10px 26px rgba(0,0,0,.10);
+}
+
+/* =========================================================
+   Buttons under embeds (Spotify/YouTube): consistent pills
+   ========================================================= */
+
+.playlist-actions{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:.55rem;
+  margin:.85rem 0 1.15rem;
+  text-align:center;
+}
+
+/* si markdown mete <p>, evitamos espacios extra */
+.playlist-actions p{ margin:0; }
+
+.playlist-actions .md-button{
+  border-radius: 999px;
+  padding: .45rem .95rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* =========================================================
+   Material "grid cards": center content (home / grids)
+   ========================================================= */
+
+.md-typeset .grid.cards > ul > li { text-align: center; }
 .md-typeset .grid.cards > ul > li img {
   display: block;
   margin: 0.2rem auto 0.6rem auto;
 }
+.md-typeset .grid.cards > ul > li p { margin: 0.35rem 0; }
 
-.md-typeset .grid.cards > ul > li p {
-  margin: 0.35rem 0;
-}
+/* =========================================================
+   Master catalog A–Z: compact + max 5 cards per row
+   (prevents 1-card rows from stretching huge)
+   ========================================================= */
 
-/* Center playlist buttons under embeds */
-.playlist-actions {
-  text-align: center;
-  margin: 0.6rem 0 1rem 0;
-}
-
-.playlist-actions .md-button {
-  margin: 0.2rem 0.3rem;
-}
-
-/* Master catalog: compact blocks */
 .az-block { margin: .2rem 0 1rem 0; }
 
 .az-summary{
@@ -31,9 +98,7 @@
   padding: .25rem .4rem;
 }
 
-/* === Master A–Z: grid compacto, max 5 cards por fila, sin estirarse === */
-
-/* Desktop: 5 columnas, grid centrado con ancho máximo fijo */
+/* Desktop: 5 columns fixed width */
 .az-grid.grid.cards > ul{
   display: grid;
   gap: .45rem;
@@ -44,7 +109,7 @@
   margin: 0 auto;
 }
 
-/* Tablet grande: 4 columnas */
+/* Tablet large: 4 columns */
 @media (max-width: 1200px){
   .az-grid.grid.cards > ul{
     grid-template-columns: repeat(4, 170px);
@@ -52,7 +117,7 @@
   }
 }
 
-/* Tablet: 3 columnas */
+/* Tablet: 3 columns */
 @media (max-width: 900px){
   .az-grid.grid.cards > ul{
     grid-template-columns: repeat(3, 170px);
@@ -60,7 +125,7 @@
   }
 }
 
-/* Móvil: 2 columnas */
+/* Mobile: 2 columns */
 @media (max-width: 650px){
   .az-grid.grid.cards > ul{
     grid-template-columns: repeat(2, 160px);
@@ -68,7 +133,7 @@
   }
 }
 
-/* Móvil pequeño: 1 columna */
+/* Small mobile: 1 column */
 @media (max-width: 420px){
   .az-grid.grid.cards > ul{
     grid-template-columns: 170px;
@@ -76,80 +141,190 @@
   }
 }
 
-/* Cards más compactas */
+/* Compact card padding */
 .az-grid.grid.cards > ul > li{
   padding: .35rem .4rem;
 }
 
-/* Miniaturas estables (evita gigantismo/pixelado) */
+/* Square thumbs: stable sizing */
 .az-thumb{
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 12px;
   display: block;
   margin: 0 auto .25rem auto;
 }
 
-/* Buttons under embeds: consistent everywhere */
-.playlist-actions{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: .45rem;
-  margin: .65rem 0 1rem 0;
-  text-align: center;
-}
+/* =========================================================
+   Search results: clean card (thumb + title only)
+   ========================================================= */
 
-/* If markdown adds <p> inside, remove extra spacing */
-.playlist-actions p{
-  margin: 0;
-}
-
-/* Make buttons feel consistent */
-.playlist-actions .md-button{
-  margin: 0;           /* gap handles spacing */
-}
-
-/* Search results: layout thumb + text (tu versión no tiene .md-search-result__title) */
-.md-search-result__item > a{
-  display: flex;
-  align-items: center;
-  gap: .6rem;
-}
-
-/* Thumb */
-.search-thumb{
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
-  object-fit: cover;
-  flex: 0 0 auto;
-}
-
-/* Search results: clean card (thumb + title only) */
 .md-search-result__item .search-card{
   display: flex;
   align-items: center;
-  gap: .75rem;
-  padding: .35rem .4rem;
-  border-radius: 12px;
+  gap: .8rem;
+  padding: .45rem .55rem;
+  border-radius: 14px;
+  text-decoration: none;
+  transition: transform .12s ease, box-shadow .12s ease;
 }
 
-/* Bigger thumbnail */
+.md-search-result__item .search-card:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(0,0,0,.12);
+}
+
 .md-search-result__item .search-thumb{
   width: 72px;
   height: 72px;
-  border-radius: 14px;
+  border-radius: 16px;
   object-fit: cover;
   flex: 0 0 auto;
 }
 
-/* Title styling */
 .md-search-result__item .search-title{
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1.05rem;
   line-height: 1.2;
 }
+/* ===== A–Z (Hybrid) ===== */
 
-html { scroll-behavior: smooth; }
+/* Importante: que al saltar con # no quede tapado por el header */
+.md-content :is(h2,h3)[id^="az-"]{
+  scroll-margin-top: calc(var(--md-header-height, 3.2rem) + 3.2rem);
+}
+
+/* Wrap: sticky solo cuando usamos barra arriba (móvil/tablet) */
+.amc-az-wrap{
+  position: sticky;
+  top: calc(var(--md-header-height, 3.2rem) + 0.25rem);
+  z-index: 5; /* bajo (overlays como search deberían ir encima) */
+  padding: .35rem 0;
+  background: var(--md-default-bg-color);
+  backdrop-filter: blur(8px);
+}
+
+/* Dropdown (solo móvil) */
+.amc-az-select{ display:none; margin-bottom:.35rem; }
+.amc-az-select select{
+  width: 100%;
+  padding: .55rem .7rem;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.12);
+  background: var(--md-default-bg-color);
+  color: inherit;
+  font-weight: 600;
+}
+[data-md-color-scheme="slate"] .amc-az-select select{
+  border-color: rgba(255,255,255,.14);
+}
+
+/* Barra horizontal (móvil/tablet) */
+.amc-az-bar{
+  display:flex;
+  gap: .28rem;
+  flex-wrap: nowrap;             /* 1 fila */
+  align-items:center;
+  padding: .15rem 0;
+  overflow-x:auto;               /* fallback pro si no cabe */
+  -webkit-overflow-scrolling: touch;
+}
+.amc-az-bar::-webkit-scrollbar{ height:8px; }
+
+.amc-az-chip{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding: .22rem .42rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,.12);
+  text-decoration: none !important;
+  font-weight: 700;
+  font-size: .78rem;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: inherit;
+  background: rgba(0,0,0,.02);
+}
+[data-md-color-scheme="slate"] .amc-az-chip{
+  border-color: rgba(255,255,255,.14);
+  background: rgba(255,255,255,.04);
+}
+.amc-az-chip.is-active{
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--md-accent-fg-color) 20%, transparent);
+}
+
+/* Rail vertical minimal (desktop) */
+.amc-az-rail{
+  display:none; /* por defecto oculto; se enciende en desktop */
+  position: fixed;
+  top: calc(var(--md-header-height, 3.2rem) + 1.0rem);
+  right: calc(0.8rem + env(safe-area-inset-right));
+  z-index: 6; /* encima del contenido, debajo de overlays grandes */
+  padding: .4rem .35rem;
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--md-default-bg-color) 92%, transparent);
+  backdrop-filter: blur(10px);
+  max-height: calc(100vh - (var(--md-header-height, 3.2rem) + 2.0rem));
+  overflow: auto;
+}
+[data-md-color-scheme="slate"] .amc-az-rail{
+  border-color: rgba(255,255,255,.14);
+  background: color-mix(in srgb, var(--md-default-bg-color) 88%, transparent);
+}
+
+.amc-az-rail-link{
+  display:block;
+  width: 1.7rem;
+  text-align:center;
+  padding: .18rem 0;
+  border-radius: 10px;
+  text-decoration:none !important;
+  font-weight: 800;
+  font-size: .78rem;
+  line-height: 1;
+  color: inherit;
+  opacity: .78;
+}
+.amc-az-rail-link:hover{ opacity: 1; background: rgba(0,0,0,.04); }
+[data-md-color-scheme="slate"] .amc-az-rail-link:hover{ background: rgba(255,255,255,.06); }
+
+.amc-az-rail-link.is-active{
+  opacity: 1;
+  color: var(--md-accent-fg-color);
+  background: color-mix(in srgb, var(--md-accent-fg-color) 12%, transparent);
+}
+
+/* Móvil: dropdown ON, rail OFF */
+@media (max-width: 720px){
+  .amc-az-select{ display:block; }
+}
+
+/* Desktop ancho: rail ON y barra arriba OFF (para no duplicar) */
+@media (min-width: 1100px){
+  .amc-az-wrap{
+    position: static;  /* ya no necesitamos sticky arriba */
+    padding: 0;        /* evita “hueco” */
+    background: transparent;
+    backdrop-filter: none;
+  }
+  .amc-az-select{ display:none; }
+  .amc-az-bar{ display:none; }
+  .amc-az-rail{ display:block; }
+}
+
+/* Buscar: ocultar el índice completo para que no tape resultados */
+html[data-md-state="search"] .amc-az-wrap,
+body[data-md-state="search"] .amc-az-wrap{
+  display:none !important;
+}
+
+/* Header title: evita que el "Site — Page" se rompa raro */
+.md-header__title .md-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
