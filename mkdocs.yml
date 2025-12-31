@@ -4,9 +4,7 @@ use_directory_urls: true
 
 theme:
   name: material
-  font:
-    text: Inter
-    code: JetBrains Mono
+  font: false
   palette:
     - scheme: default
       primary: white
