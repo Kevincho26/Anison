@@ -422,3 +422,66 @@ body[data-md-state="search"] .amc-az-wrap{
   overflow: hidden;
   text-overflow: ellipsis;
 }
+/* =========================================================
+   A–Z Rail refinement (desktop)
+   Pegar al FINAL del extra.css para sobreescribir.
+   ========================================================= */
+
+@media (min-width: 1200px) and (pointer: fine) {
+  /* Caja del rail más discreta */
+  .amc-az-rail{
+    right: 0.6rem; /* más pegado al borde */
+    padding: .28rem .22rem;
+    border-radius: 12px;
+    border-color: rgba(0,0,0,.08);
+    box-shadow: 0 10px 24px rgba(0,0,0,.10);
+    opacity: .92;
+    transition: opacity .12s ease, transform .12s ease;
+  }
+
+  [data-md-color-scheme="slate"] .amc-az-rail{
+    border-color: rgba(255,255,255,.12);
+    box-shadow: 0 12px 28px rgba(0,0,0,.35);
+  }
+
+  /* Se “retira” un pelín y se hace más visible al hover */
+  .amc-az-rail:hover{
+    opacity: 1;
+    transform: translateY(-1px);
+  }
+
+  /* Links más compactos (entra mejor y se ve más “index”) */
+  .amc-az-rail-link{
+    width: 1.45rem;     /* antes 1.7rem */
+    padding: .14rem 0;  /* menos alto */
+    border-radius: 9px;
+    font-size: .74rem;
+    font-weight: 700;
+    opacity: .72;
+  }
+
+  .amc-az-rail-link:hover{
+    opacity: 1;
+  }
+
+  /* Activo más sutil */
+  .amc-az-rail-link.is-active{
+    background: rgba(0,0,0,.06);
+  }
+  [data-md-color-scheme="slate"] .amc-az-rail-link.is-active{
+    background: rgba(255,255,255,.09);
+  }
+
+  /* Scrollbar casi invisible (igual usable) */
+  .amc-az-rail{
+    scrollbar-width: thin; /* Firefox */
+  }
+  .amc-az-rail::-webkit-scrollbar{ width: 8px; }
+  .amc-az-rail::-webkit-scrollbar-thumb{
+    background: rgba(0,0,0,.12);
+    border-radius: 999px;
+  }
+  [data-md-color-scheme="slate"] .amc-az-rail::-webkit-scrollbar-thumb{
+    background: rgba(255,255,255,.14);
+  }
+}
