@@ -485,3 +485,10 @@ body[data-md-state="search"] .amc-az-wrap{
     background: rgba(255,255,255,.14);
   }
 }
+
+.home-cta{
+  display:flex;
+  gap:.6rem;
+  flex-wrap:wrap;
+  margin: .8rem 0 1.2rem;
+}
