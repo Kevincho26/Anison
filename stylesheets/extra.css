@@ -486,9 +486,14 @@ body[data-md-state="search"] .amc-az-wrap{
   }
 }
 
-.home-cta{
-  display:flex;
-  gap:.6rem;
-  flex-wrap:wrap;
-  margin: .8rem 0 1.2rem;
+/* Logo más grande en el header (sin aumentar barra) */
+.md-header__button.md-logo img {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+
+/* También en el drawer móvil */
+.md-nav__button.md-logo img {
+  width: 2.6rem;
+  height: 2.6rem;
 }

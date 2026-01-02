@@ -20,7 +20,7 @@
   const prefix = getPrefix();
   const origin = location.origin;
 
-  // Carga mapa URL -> {title, thumb, ...}
+  // Carga mapa URL -> {title, thumb}
   let map = {};
   try {
     const jsonUrl = origin + prefix + "assets/search_thumbs.json";
@@ -51,30 +51,6 @@
     return href;
   }
 
-  // “Series-only” robusto:
-  // - Si NO está en el mapa => NO es una serie (se oculta)
-  // - Si está en el mapa => se renderiza como card (thumb + title)
-  function shouldHideResult(key, meta) {
-    // Oculta TODO lo que no sea una serie (white-list = map)
-    if (!meta) return true;
-
-    // Extra safety: si en algún momento incluyes cosas no-series en el JSON,
-    // aquí podrías filtrar por meta.tags incluyendo 'series'. Por ahora, whitelist basta.
-    // if (meta?.tags && Array.isArray(meta.tags) && !meta.tags.includes("series")) return true;
-
-    return false;
-  }
-
-  let scheduled = false;
-  function scheduleEnhance() {
-    if (scheduled) return;
-    scheduled = true;
-    requestAnimationFrame(() => {
-      scheduled = false;
-      enhance();
-    });
-  }
-
   function enhance() {
     const items = document.querySelectorAll(".md-search-result__item");
     items.forEach((item) => {
@@ -90,12 +66,14 @@
       const key = normalizeKeyFromHref(a.getAttribute("href") || "");
       const meta = map[key];
 
-      // Hide anything not in the series thumb map (keeps search clean)
-      if (shouldHideResult(key, meta)) {
+      // si es algo de series pero no está en el mapa, lo ocultamos (evita “catálogos”)
+      if (!meta && key.startsWith("series/")) {
         item.style.display = "none";
         item.dataset.thumbified = "1";
         return;
       }
+
+      if (!meta) return;
 
       // render limpio: solo thumb + título
       const clean = document.createElement("a");
@@ -120,14 +98,7 @@
     });
   }
 
-  // Observa cambios en el DOM (Material inserta resultados dinámicamente)
-  const obs = new MutationObserver(scheduleEnhance);
+  const obs = new MutationObserver(enhance);
   obs.observe(document.documentElement, { childList: true, subtree: true });
-
-  // Soporte extra para navigation.instant
-  if (window.document$ && typeof window.document$.subscribe === "function") {
-    window.document$.subscribe(scheduleEnhance);
-  } else {
-    document.addEventListener("DOMContentLoaded", scheduleEnhance);
-  }
+  document.addEventListener("DOMContentLoaded", enhance);
 })();
