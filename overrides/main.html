@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+
+  <!-- Favicons -->
+  <link rel="icon" href="{{ 'assets/icons/favicon.ico' | url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/icons/favicon-16.png' | url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/icons/favicon-32.png' | url }}">
+  <link rel="icon" type="image/png" sizes="48x48" href="{{ 'assets/icons/favicon-48.png' | url }}">
+
+  <!-- Apple Touch Icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/icons/apple-touch-icon.png' | url }}">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="{{ 'assets/icons/site.webmanifest' | url }}">
+
+  <!-- Theme colors (optional but nice) -->
+  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#0b0b0b" media="(prefers-color-scheme: dark)">
+{% endblock %}
