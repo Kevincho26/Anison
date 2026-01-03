@@ -1078,6 +1078,38 @@ body[data-md-url^="series/"] .md-typeset iframe[src*="youtube.com/embed"]{
   }
 }
 
+/* =========================================================
+   FIX iOS / Mobile ONLY: Spotify con ratio 16:9 (como YouTube)
+   - NO altura fija (evita que quede “cuadrado”)
+   - usamos aspect-ratio + min-height para que iOS no lo aplaste
+   ========================================================= */
+
+@media (max-width: 720px){
+
+  /* Spotify (con tu clase) */
+  body .md-typeset iframe.anison-embed[src*="open.spotify.com/embed"]{
+    width: 100% !important;
+    max-width: var(--anison-embed-max-width, 860px) !important;
+
+    aspect-ratio: 16 / 9 !important;
+    height: auto !important;
+    min-height: 240px !important;  /* si aún se aplasta, sube a 280 */
+
+    border: 0 !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    display: block !important;
+    margin: 1rem auto !important;
+  }
+
+  /* Spotify (fallback sin clase) */
+  body .md-typeset iframe[src*="open.spotify.com/embed"]{
+    width: 100% !important;
+    aspect-ratio: 16 / 9 !important;
+    height: auto !important;
+    min-height: 240px !important;
+  }
+}
 
 
 
@@ -1263,30 +1295,5 @@ body[data-md-state="search"] .amc-az-wrap{
     height: 72px !important;
     border-radius: 16px !important;
     box-shadow: 0 10px 26px rgba(0,0,0,.12) !important;
-  }
-}
-
-/* =========================================================
-   FIX iOS (móvil): Spotify con 16:9 SIN recorte
-   - no usar height fijo (lo hace “cuadrado”)
-   - usar aspect-ratio + min-height para evitar colapso
-   ========================================================= */
-
-@media (max-width: 720px){
-
-  /* Spotify con tu clase */
-  .md-typeset iframe.anison-embed[src*="open.spotify.com/embed"]{
-    aspect-ratio: 16 / 9 !important;
-    height: auto !important;
-    min-height: 280px !important;   /* evita que iOS lo aplaste */
-    width: 100% !important;
-  }
-
-  /* Fallback: Spotify sin clase */
-  .md-typeset iframe[src*="open.spotify.com/embed"]{
-    aspect-ratio: 16 / 9 !important;
-    height: auto !important;
-    min-height: 280px !important;
-    width: 100% !important;
   }
 }
