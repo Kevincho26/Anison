@@ -153,3 +153,30 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+/* =========================================================
+   Mobile: A–Z rail (derecha) – más usable y no estorba
+   ========================================================= */
+
+@media (max-width: 59.99em){
+  .amc-az-rail{
+    transform: scale(0.92);
+    transform-origin: right center;
+    right: .25rem !important;
+    opacity: 0.92;
+  }
+
+  /* Si tapa mucho, puedes ocultarla en móvil:
+  .amc-az-rail{ display:none !important; }
+  */
+}
+
+/* =========================================================
+   Mobile: cards – más “tappable”
+   ========================================================= */
+
+@media (max-width: 59.99em){
+  .md-typeset .az-grid.grid.cards a{
+    padding: .2rem 0 !important;
+  }
+}
