@@ -1004,3 +1004,47 @@ body[data-md-url^="series/"] .md-typeset iframe[src*="youtube.com/embed"]{
   max-width: 860px !important;      /* ajusta si quieres */
   margin: 1rem auto !important;
 }
+
+/* =========================================================
+   Anison embeds: YouTube + Spotify con la misma "caja"
+   Usa class="anison-embed" en iframes
+   ========================================================= */
+
+:root{
+  --anison-embed-max-width: 860px; /* ajusta: 720–1000px */
+  --anison-embed-radius: 12px;
+  --anison-embed-aspect: 16 / 9;
+}
+
+/* Base (iframe) */
+.md-typeset iframe.anison-embed{
+  display: block !important;
+  width: 100% !important;
+  max-width: var(--anison-embed-max-width) !important;
+  margin: 1rem auto !important;
+
+  aspect-ratio: var(--anison-embed-aspect) !important;
+  height: auto !important;
+
+  border: 0 !important;
+  border-radius: var(--anison-embed-radius) !important;
+  overflow: hidden !important;
+}
+
+/* Si algún embed trae height/width inline/atributo, lo aplastamos */
+.md-typeset iframe.anison-embed[height],
+.md-typeset iframe.anison-embed[width]{
+  height: auto !important;
+  width: 100% !important;
+}
+/* =========================================================
+   Anison – Unified embeds (YouTube + Spotify)
+   ========================================================= */
+
+.md-typeset iframe.anison-embed{
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  border: 0;
+  overflow: hidden;
+}
