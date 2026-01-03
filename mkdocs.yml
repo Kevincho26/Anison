@@ -2,6 +2,10 @@ site_name: Anison
 site_url: https://kevincho26.github.io/Anison/
 use_directory_urls: true
 
+nav:
+  - Home: index.md
+  - Series: series/index.md
+
 theme:
   name: material
   custom_dir: overrides
@@ -28,8 +32,8 @@ theme:
     - navigation.instant.progress
     - navigation.tracking
     - navigation.indexes
-    - navigation.sections
     - navigation.top
+    - navigation.expand
     - toc.follow
     - search.suggest
     - search.highlight
