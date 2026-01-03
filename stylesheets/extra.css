@@ -1056,6 +1056,29 @@ body[data-md-url^="series/"] .md-typeset iframe[src*="youtube.com/embed"]{
   border: 0;
   overflow: hidden;
 }
+
+/* =========================================================
+   FIX iOS (móvil): Spotify iframe se recorta con aspect-ratio
+   -> Forzamos altura estable SOLO en pantallas chicas
+   ========================================================= */
+
+@media (max-width: 720px){
+
+  /* Caso general con class anison-embed */
+  .md-typeset iframe.anison-embed[src*="open.spotify.com"]{
+    height: max(352px, 56.25vw) !important; /* 16:9 = 56.25vw */ /* altura “safe” para Spotify */
+    aspect-ratio: auto !important; /* no confiar en iOS */
+  }
+
+  /* Por si hay embeds de Spotify sin la clase (o rules antiguas) */
+  body[data-md-url^="series/"] .md-typeset iframe[src*="open.spotify.com/embed"],
+  body[data-md-url^="series/"] .md-typeset iframe[src*="spotify.com"]{
+    height: max(352px, 56.25vw) !important; /* 16:9 = 56.25vw */
+    aspect-ratio: auto !important;
+  }
+}
+
+
 /* =========================================================
    A–Z rail: no usar --md-typeset-a-color (azul del tema)
    - Base: negro en light, blanco en dark
