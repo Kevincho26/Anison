@@ -1092,3 +1092,45 @@ body[data-md-url^="series/"] .md-typeset iframe[src*="youtube.com/embed"]{
     text-decoration: underline !important;
   }
 }
+/* =========================================================
+   MOBILE – Catálogo A–Z (barra horizontal)
+   1) Evitar letras azules (usar negro/blanco + hover rojo)
+   2) Cuando búsqueda está abierta: ocultar la barra A–Z
+   ========================================================= */
+
+@media (max-width: 59.99em){
+
+  /* 2) Mientras el buscador está abierto, ocultar la barra A–Z
+        (esto evita que tape los resultados) */
+  body[data-md-state="search"] .amc-az-rail,
+  body[data-md-state="search"] .amc-az-rail *{
+    display: none !important;
+  }
+
+  /* 1) Colores de letras del rail A–Z (evitar azul iOS/links) */
+  body[data-md-color-scheme="default"] .amc-az-rail a,
+  body[data-md-color-scheme="default"] .amc-az-rail a:link,
+  body[data-md-color-scheme="default"] .amc-az-rail a:visited{
+    color: #000 !important;
+    -webkit-text-fill-color: #000 !important; /* iOS: mata el azul */
+    text-decoration: none !important;
+  }
+
+  body[data-md-color-scheme="slate"] .amc-az-rail a,
+  body[data-md-color-scheme="slate"] .amc-az-rail a:link,
+  body[data-md-color-scheme="slate"] .amc-az-rail a:visited{
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important; /* iOS: mata el azul */
+    text-decoration: none !important;
+  }
+
+  /* Hover / focus: rojo */
+  .amc-az-rail a:hover,
+  .amc-az-rail a:focus,
+  .amc-az-rail a:focus-visible,
+  .amc-az-rail a:active{
+    color: var(--brand-red) !important;
+    -webkit-text-fill-color: var(--brand-red) !important;
+    text-decoration: none !important;
+  }
+}
