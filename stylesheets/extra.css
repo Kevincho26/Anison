@@ -1606,7 +1606,7 @@ body[data-md-state="search"] .amc-az-wrap{
   /* 2) Control fino del espacio en cada fila:
         menos izquierda, más derecha */
   .anison-best-list li{
-    padding: .45rem 1rem .45rem .2rem !important; /* top right bottom left */
+    padding: .45rem 1.2rem .45rem .0rem !important; /* top right bottom left */
   }
 }
 
