@@ -1592,3 +1592,20 @@ body[data-md-state="search"] .amc-az-wrap{
     margin-left: auto;
   }
 }
+
+/* =========================================================
+   Best songs – Mobile: reducir margen izquierdo (sin centrar)
+   ========================================================= */
+@media (max-width: 720px){
+  /* Quita sangría típica de listas */
+  .anison-best-list{
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  /* Reduce padding lateral de cada fila */
+  .anison-best-list li{
+    padding-left: .35rem !important;
+    padding-right: .35rem !important;
+  }
+}
