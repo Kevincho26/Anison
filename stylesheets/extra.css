@@ -1632,3 +1632,138 @@ body[data-md-state="search"] .amc-az-wrap{
     font-size: .92rem;
   }
 }
+
+/* ===== Best songs bar (iconos izquierda + toggle derecha) ===== */
+.anison-best-bar{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  gap: .8rem;
+  margin: .35rem 0 .65rem 0;
+}
+
+.anison-best-platforms{
+  display:inline-flex;
+  gap: .45rem;
+  align-items:center;
+}
+
+/* Botón circular con icono via mask */
+.anison-icon-btn{
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none !important;
+  border: 1px solid rgba(255,255,255,.18);
+  background: transparent;
+  color: var(--md-default-fg-color);
+  transition: background 150ms, border-color 150ms, color 150ms;
+  position: relative;
+}
+
+[data-md-color-scheme="default"] .anison-icon-btn{
+  border-color: rgba(0,0,0,.18);
+  color: #000;
+}
+
+[data-md-color-scheme="slate"] .anison-icon-btn{
+  border-color: rgba(255,255,255,.22);
+  color: #fff;
+}
+
+/* “dibujo” del icono */
+.anison-icon-btn::before{
+  content:"";
+  width: 18px;
+  height: 18px;
+  background: currentColor;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+}
+
+/* Asignación de cada icono */
+.anison-icon-btn.is-spotify::before{
+  -webkit-mask-image: url("/Anison/assets/icons/spotify.svg");
+  mask-image: url("/Anison/assets/icons/spotify.svg");
+}
+.anison-icon-btn.is-youtube::before{
+  -webkit-mask-image: url("/Anison/assets/icons/youtube.svg");
+  mask-image: url("/Anison/assets/icons/youtube.svg");
+}
+.anison-icon-btn.is-ytmusic::before{
+  -webkit-mask-image: url("/Anison/assets/icons/youtubemusic.svg");
+  mask-image: url("/Anison/assets/icons/youtubemusic.svg");
+}
+
+/* Hover rojo (borde + fondo rojo, icono blanco) */
+.anison-icon-btn:hover{
+  background: var(--brand-red);
+  border-color: var(--brand-red);
+  color: #fff;
+}
+
+/* Mobile: si no cabe, que baje a 2 líneas pero quede alineado */
+@media (max-width: 720px){
+  .anison-best-bar{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Best songs bar: Toggle izquierda, iconos derecha */
+.anison-best-bar{
+  justify-content: space-between !important;
+}
+
+.anison-best-toggle{
+  order: 1 !important;
+}
+
+.anison-best-platforms{
+  order: 2 !important;
+  margin-left: auto !important;
+  justify-content: flex-end !important;
+}
+
+/* Icon buttons: hover sin relleno rojo (solo borde + icono en rojo) */
+.anison-icon-btn:hover{
+  background: transparent !important;
+  border-color: var(--brand-red) !important;
+  color: var(--brand-red) !important;
+}
+
+/* opcional: un tint suave al pasar mouse (si lo quieres) */
+/*
+.anison-icon-btn:hover{
+  background: rgba(253, 76, 76, .12) !important;
+}
+*/
+
+/* FIX definitivo: iconos a la derecha, toggle a la izquierda */
+.anison-best-bar{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: .8rem;
+}
+
+/* El toggle se queda a la izquierda */
+.anison-best-toggle{
+  flex: 0 0 auto !important;
+}
+
+/* Los iconos se empujan al extremo derecho */
+.anison-best-platforms{
+  margin-left: auto !important;
+  display: inline-flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  gap: .45rem;
+}
