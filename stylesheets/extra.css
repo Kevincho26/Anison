@@ -1605,8 +1605,8 @@ body[data-md-state="search"] .amc-az-wrap{
 
   /* Reduce padding lateral de cada fila */
   .anison-best-list li{
-    padding-left: -.1rem !important;
-    padding-right: .45rem !important;
+    padding-left: -.25rem !important;
+    padding-right: .0rem !important;
   }
 }
 
