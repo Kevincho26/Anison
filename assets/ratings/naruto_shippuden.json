@@ -1,0 +1,615 @@
+{
+  "series": "Naruto Shippuden",
+  "playlist_name": "Naruto Shippuden",
+  "playlist_id": null,
+  "threshold": 3.5,
+  "generated_at": "2026-01-04T03:01:11Z",
+  "stats": {
+    "total_tracks": 60,
+    "rated_tracks": 60,
+    "best_tracks": 17,
+    "avg_rating": 2.9
+  },
+  "tracks": [
+    {
+      "title": "Diver",
+      "artist": "NICO Touches the Walls",
+      "rating": 5.0,
+      "id": "3PcKYVcZNSsLqI1xzXV5Aq",
+      "uri": "spotify:track:3PcKYVcZNSsLqI1xzXV5Aq",
+      "url": "https://open.spotify.com/track/3PcKYVcZNSsLqI1xzXV5Aq",
+      "yt_op_url": "https://www.youtube.com/watch?v=P1yJ51DH-18",
+      "yt_song_url": "https://www.youtube.com/watch?v=CnaywDCtBas"
+    },
+    {
+      "title": "Sign",
+      "artist": "FLOW",
+      "rating": 5.0,
+      "id": "0xmWQKzc5m9rLv2ucDWxwD",
+      "uri": "spotify:track:0xmWQKzc5m9rLv2ucDWxwD",
+      "url": "https://open.spotify.com/track/0xmWQKzc5m9rLv2ucDWxwD",
+      "yt_op_url": "https://www.youtube.com/watch?v=97dkzVU4p-M",
+      "yt_song_url": "https://www.youtube.com/watch?v=csVeFCLhmAM"
+    },
+    {
+      "title": "透明だった世界",
+      "artist": "Motohiro Hata",
+      "rating": 5.0,
+      "id": "3ILmwMefYZoQh5Cf5jeuUQ",
+      "uri": "spotify:track:3ILmwMefYZoQh5Cf5jeuUQ",
+      "url": "https://open.spotify.com/track/3ILmwMefYZoQh5Cf5jeuUQ",
+      "yt_op_url": "https://www.youtube.com/watch?v=06EjEq_7RJY",
+      "yt_song_url": "https://www.youtube.com/watch?v=cMFrkiC8A48"
+    },
+    {
+      "title": "シルエット",
+      "artist": "KANA-BOON",
+      "rating": 4.5,
+      "id": "21z1GxeHjfD3qkaF5CgCTO",
+      "uri": "spotify:track:21z1GxeHjfD3qkaF5CgCTO",
+      "url": "https://open.spotify.com/track/21z1GxeHjfD3qkaF5CgCTO",
+      "yt_op_url": "https://www.youtube.com/watch?v=zVgKnfN9i34",
+      "yt_song_url": "https://www.youtube.com/watch?v=zqKrpw36xnU"
+    },
+    {
+      "title": "ニワカ雨ニモ負ケズ",
+      "artist": "NICO Touches the Walls",
+      "rating": 4.5,
+      "id": "6flEDs8jmQ47ZSFZru59Fz",
+      "uri": "spotify:track:6flEDs8jmQ47ZSFZru59Fz",
+      "url": "https://open.spotify.com/track/6flEDs8jmQ47ZSFZru59Fz",
+      "yt_op_url": "https://www.youtube.com/watch?v=BylkQHFemTw",
+      "yt_song_url": "https://www.youtube.com/watch?v=WvW5NoMB0tE"
+    },
+    {
+      "title": "ブルーバード",
+      "artist": "Ikimonogakari",
+      "rating": 4.5,
+      "id": "2XpV9sHBexcNrz0Gyf3l18",
+      "uri": "spotify:track:2XpV9sHBexcNrz0Gyf3l18",
+      "url": "https://open.spotify.com/track/2XpV9sHBexcNrz0Gyf3l18",
+      "yt_op_url": "https://www.youtube.com/watch?v=2upuBiEiXDk",
+      "yt_song_url": "https://www.youtube.com/watch?v=dYxZc25-I2I"
+    },
+    {
+      "title": "虹",
+      "artist": "Shinkuhorou",
+      "rating": 4.5,
+      "id": "5DR4xKHHxyTp4xLYZMEYFs",
+      "uri": "spotify:track:5DR4xKHHxyTp4xLYZMEYFs",
+      "url": "https://open.spotify.com/track/5DR4xKHHxyTp4xLYZMEYFs",
+      "yt_op_url": "https://www.youtube.com/watch?v=p3zsRbVo1T8",
+      "yt_song_url": "https://www.youtube.com/watch?v=T1nFEd7UJAM"
+    },
+    {
+      "title": "ブラックナイトタウン〜NARUTO-ナルト-エンディングver.〜",
+      "artist": "Akihisa Kondo",
+      "rating": 4.0,
+      "id": "2ZGrHQYPqnYZQf9c7D3kPI",
+      "uri": "spotify:track:2ZGrHQYPqnYZQf9c7D3kPI",
+      "url": "https://open.spotify.com/track/2ZGrHQYPqnYZQf9c7D3kPI",
+      "yt_op_url": "https://www.youtube.com/watch?v=oUeIrEEBReE",
+      "yt_song_url": "https://www.youtube.com/watch?v=IoMzLgS-J7A"
+    },
+    {
+      "title": "真夜中のオーケストラ",
+      "artist": "Aqua Timez",
+      "rating": 4.0,
+      "id": "2BzT7SM4RhKfrbPTAbSLqh",
+      "uri": "spotify:track:2BzT7SM4RhKfrbPTAbSLqh",
+      "url": "https://open.spotify.com/track/2BzT7SM4RhKfrbPTAbSLqh",
+      "yt_op_url": "https://www.youtube.com/watch?v=We-Lea2MLJc",
+      "yt_song_url": "https://www.youtube.com/watch?v=XH2izKVM0hY"
+    },
+    {
+      "title": "青のララバイ",
+      "artist": "Kuroneko Chelsea",
+      "rating": 4.0,
+      "id": "3LlDP8TWS3fTwHhnoiv8QA",
+      "uri": "spotify:track:3LlDP8TWS3fTwHhnoiv8QA",
+      "url": "https://open.spotify.com/track/3LlDP8TWS3fTwHhnoiv8QA",
+      "yt_op_url": "https://www.youtube.com/watch?v=HuHun17X7uo",
+      "yt_song_url": "https://www.youtube.com/watch?v=q4NX3ThWYlw"
+    },
+    {
+      "title": "MOTHER",
+      "artist": "MUCC",
+      "rating": 3.5,
+      "id": "4RLbnQSe4DAfv0HU0DRreT",
+      "uri": "spotify:track:4RLbnQSe4DAfv0HU0DRreT",
+      "url": "https://open.spotify.com/track/4RLbnQSe4DAfv0HU0DRreT",
+      "yt_op_url": "https://www.youtube.com/watch?v=S0CY5wrFe7g",
+      "yt_song_url": "https://www.youtube.com/watch?v=PmFVz_dIIFc"
+    },
+    {
+      "title": "カスケード",
+      "artist": "UNLIMITS",
+      "rating": 3.5,
+      "id": "6imL0aJnaP49YVRT9NOFx8",
+      "uri": "spotify:track:6imL0aJnaP49YVRT9NOFx8",
+      "url": "https://open.spotify.com/track/6imL0aJnaP49YVRT9NOFx8",
+      "yt_op_url": "https://www.youtube.com/watch?v=ocBWoIJul5M",
+      "yt_song_url": "https://www.youtube.com/watch?v=2h_JeLofN4s"
+    },
+    {
+      "title": "カラノココロ",
+      "artist": "Anly",
+      "rating": 3.5,
+      "id": "3uXKEQTzOngrZ1WWyMzuqO",
+      "uri": "spotify:track:3uXKEQTzOngrZ1WWyMzuqO",
+      "url": "https://open.spotify.com/track/3uXKEQTzOngrZ1WWyMzuqO",
+      "yt_op_url": "https://www.youtube.com/watch?v=v8OhPW-Yb0k",
+      "yt_song_url": "https://www.youtube.com/watch?v=B3GdBgj5m6s"
+    },
+    {
+      "title": "バイマイサイド",
+      "artist": "Hemenway",
+      "rating": 3.5,
+      "id": "39zRDK54BJJQqcIYydsfSy",
+      "uri": "spotify:track:39zRDK54BJJQqcIYydsfSy",
+      "url": "https://open.spotify.com/track/39zRDK54BJJQqcIYydsfSy",
+      "yt_op_url": "https://www.youtube.com/watch?v=_6NEXNPZHt8",
+      "yt_song_url": "https://www.youtube.com/watch?v=3mKRHFe08g0"
+    },
+    {
+      "title": "ホタルノヒカリ",
+      "artist": "Ikimonogakari",
+      "rating": 3.5,
+      "id": "7AffKWcNn5Zv7QFgScW2ox",
+      "uri": "spotify:track:7AffKWcNn5Zv7QFgScW2ox",
+      "url": "https://open.spotify.com/track/7AffKWcNn5Zv7QFgScW2ox",
+      "yt_op_url": "https://www.youtube.com/watch?v=miFqf3Zedpw",
+      "yt_song_url": "https://www.youtube.com/watch?v=7GMPeHFy2Dk"
+    },
+    {
+      "title": "欲望を叫べ!!!!",
+      "artist": "OKAMOTO'S",
+      "rating": 3.5,
+      "id": "3Qp9zbyZjRldOBfW51Exzr",
+      "uri": "spotify:track:3Qp9zbyZjRldOBfW51Exzr",
+      "url": "https://open.spotify.com/track/3Qp9zbyZjRldOBfW51Exzr",
+      "yt_op_url": "https://www.youtube.com/watch?v=BkaUKX7q5nk",
+      "yt_song_url": "https://www.youtube.com/watch?v=RbSW_joD1T4"
+    },
+    {
+      "title": "深呼吸",
+      "artist": "SUPER BEAVER",
+      "rating": 3.5,
+      "id": "2kvvZ9IPqTPjXOXHuaFXdA",
+      "uri": "spotify:track:2kvvZ9IPqTPjXOXHuaFXdA",
+      "url": "https://open.spotify.com/track/2kvvZ9IPqTPjXOXHuaFXdA",
+      "yt_op_url": "https://www.youtube.com/watch?v=lBES1aPv9yQ",
+      "yt_song_url": "https://www.youtube.com/watch?v=WRLLtdupOdY"
+    },
+    {
+      "title": "Broken Youth",
+      "artist": "NICO Touches the Walls",
+      "rating": 3.0,
+      "id": "2pjRFU0akiTgVCAkHVPCPV",
+      "uri": "spotify:track:2pjRFU0akiTgVCAkHVPCPV",
+      "url": "https://open.spotify.com/track/2pjRFU0akiTgVCAkHVPCPV",
+      "yt_op_url": "https://www.youtube.com/watch?v=rHB2vlTFEiA",
+      "yt_song_url": "https://www.youtube.com/watch?v=m7EPuB7fv6M"
+    },
+    {
+      "title": "CLOSER",
+      "artist": "Joe Inoue",
+      "rating": 3.0,
+      "id": "2Kld61w2NR7zPPXtaHeIii",
+      "uri": "spotify:track:2Kld61w2NR7zPPXtaHeIii",
+      "url": "https://open.spotify.com/track/2Kld61w2NR7zPPXtaHeIii",
+      "yt_op_url": "https://www.youtube.com/watch?v=BTLFZ2DCjn0",
+      "yt_song_url": "https://www.youtube.com/watch?v=mguVfQmYPu0"
+    },
+    {
+      "title": "FREEDOM",
+      "artist": "Home Made Kazoku",
+      "rating": 3.0,
+      "id": "5sFG4DLIXyHtbmvHxo4lW7",
+      "uri": "spotify:track:5sFG4DLIXyHtbmvHxo4lW7",
+      "url": "https://open.spotify.com/track/5sFG4DLIXyHtbmvHxo4lW7",
+      "yt_op_url": "https://www.youtube.com/watch?v=oN5dOuUGFoo",
+      "yt_song_url": "https://www.youtube.com/watch?v=Fyo2qYenkRU"
+    },
+    {
+      "title": "LINE",
+      "artist": "Sukima Switch",
+      "rating": 3.0,
+      "id": "3EDltrWSBkZAv2EPaQeS9R",
+      "uri": "spotify:track:3EDltrWSBkZAv2EPaQeS9R",
+      "url": "https://open.spotify.com/track/3EDltrWSBkZAv2EPaQeS9R",
+      "yt_op_url": "https://www.youtube.com/watch?v=X_tmHq4yhuY",
+      "yt_song_url": "https://www.youtube.com/watch?v=pr-sauTgj9s"
+    },
+    {
+      "title": "Never Change",
+      "artist": "SHUN",
+      "rating": 3.0,
+      "id": "11ENkNY5564HBnT9UvlcjK",
+      "uri": "spotify:track:11ENkNY5564HBnT9UvlcjK",
+      "url": "https://open.spotify.com/track/11ENkNY5564HBnT9UvlcjK",
+      "yt_op_url": "https://www.youtube.com/watch?v=4RLl6FS6PaA",
+      "yt_song_url": "https://www.youtube.com/watch?v=5XFBRikGwqw"
+    },
+    {
+      "title": "newsong",
+      "artist": "tacica",
+      "rating": 3.0,
+      "id": "1hGay3CQSuDeE8X95IMV3C",
+      "uri": "spotify:track:1hGay3CQSuDeE8X95IMV3C",
+      "url": "https://open.spotify.com/track/1hGay3CQSuDeE8X95IMV3C",
+      "yt_op_url": "https://www.youtube.com/watch?v=VijSxQ27-mw",
+      "yt_song_url": "https://www.youtube.com/watch?v=Mhaao7u1MNQ"
+    },
+    {
+      "title": "Place to Try",
+      "artist": "TOTALFAT",
+      "rating": 3.0,
+      "id": "1MwsgSI9pajUVZ0vVZEz6j",
+      "uri": "spotify:track:1MwsgSI9pajUVZ0vVZEz6j",
+      "url": "https://open.spotify.com/track/1MwsgSI9pajUVZ0vVZEz6j",
+      "yt_op_url": "https://www.youtube.com/watch?v=3c95DbA3cjU",
+      "yt_song_url": "https://www.youtube.com/watch?v=CXIArAI5nX0"
+    },
+    {
+      "title": "そんな君、こんな僕",
+      "artist": "Thinking Dogs",
+      "rating": 3.0,
+      "id": "6UNWa5YS4G0rJkisF4quAW",
+      "uri": "spotify:track:6UNWa5YS4G0rJkisF4quAW",
+      "url": "https://open.spotify.com/track/6UNWa5YS4G0rJkisF4quAW",
+      "yt_op_url": "https://www.youtube.com/watch?v=6R_ibD8VMOM",
+      "yt_song_url": "https://www.youtube.com/watch?v=4KgZObdc4F4"
+    },
+    {
+      "title": "だめだめだ",
+      "artist": "Shiori Tomita",
+      "rating": 3.0,
+      "id": "5vTePJBD1sHoBq83ZdIr8m",
+      "uri": "spotify:track:5vTePJBD1sHoBq83ZdIr8m",
+      "url": "https://open.spotify.com/track/5vTePJBD1sHoBq83ZdIr8m",
+      "yt_op_url": "https://www.youtube.com/watch?v=yEnq97qDHEc",
+      "yt_song_url": "https://www.youtube.com/watch?v=Bzhe2jSaFEA"
+    },
+    {
+      "title": "ブラッドサーキュレーター",
+      "artist": "ASIAN KUNG-FU GENERATION",
+      "rating": 3.0,
+      "id": "2sFBiCSUNc3ptKrCR8JABx",
+      "uri": "spotify:track:2sFBiCSUNc3ptKrCR8JABx",
+      "url": "https://open.spotify.com/track/2sFBiCSUNc3ptKrCR8JABx",
+      "yt_op_url": "https://www.youtube.com/watch?v=cxbnTMrU3H0",
+      "yt_song_url": "https://www.youtube.com/watch?v=psUh0fbszsw"
+    },
+    {
+      "title": "旅立ちの唄",
+      "artist": "Ayumikurikamaki",
+      "rating": 3.0,
+      "id": "0LJFeME84eaC5veWs5giYV",
+      "uri": "spotify:track:0LJFeME84eaC5veWs5giYV",
+      "url": "https://open.spotify.com/track/0LJFeME84eaC5veWs5giYV",
+      "yt_op_url": "https://www.youtube.com/watch?v=h6nOfejdAoM",
+      "yt_song_url": "https://www.youtube.com/watch?v=RCi9n9UzNGs"
+    },
+    {
+      "title": "絶絶",
+      "artist": "Swimy",
+      "rating": 3.0,
+      "id": "1oifj4ZzYNNDvkM9mByhsM",
+      "uri": "spotify:track:1oifj4ZzYNNDvkM9mByhsM",
+      "url": "https://open.spotify.com/track/1oifj4ZzYNNDvkM9mByhsM",
+      "yt_op_url": "https://www.youtube.com/watch?v=vu7RJo-44S0",
+      "yt_song_url": "https://www.youtube.com/watch?v=2GnMlUygF18"
+    },
+    {
+      "title": "虹の空 -Album Ver-",
+      "artist": "FLOW",
+      "rating": 3.0,
+      "id": "3ZyC7mCYTL2AVkz5CSbQPr",
+      "uri": "spotify:track:3ZyC7mCYTL2AVkz5CSbQPr",
+      "url": "https://open.spotify.com/track/3ZyC7mCYTL2AVkz5CSbQPr",
+      "yt_op_url": "https://www.youtube.com/watch?v=MRUzsjdYPNE",
+      "yt_song_url": "https://www.youtube.com/watch?v=xBu_neI52NU"
+    },
+    {
+      "title": "FLAME",
+      "artist": "DISH//",
+      "rating": 2.5,
+      "id": "68W6SPPczmrZvOL1aiKYCM",
+      "uri": "spotify:track:68W6SPPczmrZvOL1aiKYCM",
+      "url": "https://open.spotify.com/track/68W6SPPczmrZvOL1aiKYCM",
+      "yt_op_url": "https://www.youtube.com/watch?v=c_UbPcln5ac",
+      "yt_song_url": "https://www.youtube.com/watch?v=HQHSUTTcprk"
+    },
+    {
+      "title": "Hero's Come Back!!",
+      "artist": "nobodyknows+",
+      "rating": 2.5,
+      "id": "7weHG0yOwtAcZ0qBhyODLF",
+      "uri": "spotify:track:7weHG0yOwtAcZ0qBhyODLF",
+      "url": "https://open.spotify.com/track/7weHG0yOwtAcZ0qBhyODLF",
+      "yt_op_url": "https://www.youtube.com/watch?v=EBNl8bwdVcA",
+      "yt_song_url": "https://www.youtube.com/watch?v=o2Dw_lf3JMg"
+    },
+    {
+      "title": "My ANSWER",
+      "artist": "SEAMO",
+      "rating": 2.5,
+      "id": "7y4PCLY8zT13RzCvMsYPUh",
+      "uri": "spotify:track:7y4PCLY8zT13RzCvMsYPUh",
+      "url": "https://open.spotify.com/track/7y4PCLY8zT13RzCvMsYPUh",
+      "yt_op_url": "https://www.youtube.com/watch?v=ZQEHw4gaBF4",
+      "yt_song_url": "https://www.youtube.com/watch?v=FKRItD1hKZY"
+    },
+    {
+      "title": "Spinning World",
+      "artist": "Diana Garnet",
+      "rating": 2.5,
+      "id": "0SaGO4XYakz24HIWELYLMt",
+      "uri": "spotify:track:0SaGO4XYakz24HIWELYLMt",
+      "url": "https://open.spotify.com/track/0SaGO4XYakz24HIWELYLMt",
+      "yt_op_url": "https://www.youtube.com/watch?v=inZbsqMxjj0",
+      "yt_song_url": "https://www.youtube.com/watch?v=TT21SFa5JEI"
+    },
+    {
+      "title": "U can do it !",
+      "artist": "DOMINO",
+      "rating": 2.5,
+      "id": "4RCJYly0A1qlytafv4Ko6T",
+      "uri": "spotify:track:4RCJYly0A1qlytafv4Ko6T",
+      "url": "https://open.spotify.com/track/4RCJYly0A1qlytafv4Ko6T",
+      "yt_op_url": "https://www.youtube.com/watch?v=fU4zb23tKLM",
+      "yt_song_url": "https://www.youtube.com/watch?v=4zkp2yya6eg"
+    },
+    {
+      "title": "うたかた花火",
+      "artist": "supercell",
+      "rating": 2.5,
+      "id": "3VbpuVvobZbMJ86p1w3GKK",
+      "uri": "spotify:track:3VbpuVvobZbMJ86p1w3GKK",
+      "url": "https://open.spotify.com/track/3VbpuVvobZbMJ86p1w3GKK",
+      "yt_op_url": "https://www.youtube.com/watch?v=c5BMGIu6Uqw",
+      "yt_song_url": "https://www.youtube.com/watch?v=-JLHDmpgP8w"
+    },
+    {
+      "title": "この声枯らして",
+      "artist": "AISHA",
+      "rating": 2.5,
+      "id": "3A15Rv84GTckeKm2xVKwfM",
+      "uri": "spotify:track:3A15Rv84GTckeKm2xVKwfM",
+      "url": "https://open.spotify.com/track/3A15Rv84GTckeKm2xVKwfM",
+      "yt_op_url": "https://www.youtube.com/watch?v=MobZfmsAJlA",
+      "yt_song_url": "https://www.youtube.com/watch?v=CJaG7FKNc94"
+    },
+    {
+      "title": "トラブルメイカー",
+      "artist": "KANIKAPILA",
+      "rating": 2.5,
+      "id": "7kEFyP8uYvvK8gmTnV2WG6",
+      "uri": "spotify:track:7kEFyP8uYvvK8gmTnV2WG6",
+      "url": "https://open.spotify.com/track/7kEFyP8uYvvK8gmTnV2WG6",
+      "yt_op_url": "https://www.youtube.com/watch?v=uv_AkGUdh2A",
+      "yt_song_url": "https://www.youtube.com/watch?v=U15kabhz9zE"
+    },
+    {
+      "title": "バッチコイ!!!",
+      "artist": "Devparade",
+      "rating": 2.5,
+      "id": "2tlFM3AlpzLzBpmiGYJeAr",
+      "uri": "spotify:track:2tlFM3AlpzLzBpmiGYJeAr",
+      "url": "https://open.spotify.com/track/2tlFM3AlpzLzBpmiGYJeAr",
+      "yt_op_url": "https://www.youtube.com/watch?v=ScQKD9vS5ag",
+      "yt_song_url": "https://www.youtube.com/watch?v=gq7cgD0VU2Q"
+    },
+    {
+      "title": "ピノとアメリ",
+      "artist": "Huwie Ishizaki",
+      "rating": 2.5,
+      "id": "3MauYIXhRSjeZZW54DXzHa",
+      "uri": "spotify:track:3MauYIXhRSjeZZW54DXzHa",
+      "url": "https://open.spotify.com/track/3MauYIXhRSjeZZW54DXzHa",
+      "yt_op_url": "https://www.youtube.com/watch?v=oqrtyq8-Bxc",
+      "yt_song_url": "https://www.youtube.com/watch?v=5M4ltVrNdTI"
+    },
+    {
+      "title": "ラヴァーズ",
+      "artist": "7!!",
+      "rating": 2.5,
+      "id": "5Do3qmFMpCjVLmtLhmj3a1",
+      "uri": "spotify:track:5Do3qmFMpCjVLmtLhmj3a1",
+      "url": "https://open.spotify.com/track/5Do3qmFMpCjVLmtLhmj3a1",
+      "yt_op_url": "https://www.youtube.com/watch?v=Oim_0n0nSWM",
+      "yt_song_url": "https://www.youtube.com/watch?v=w1_a6tISeAs"
+    },
+    {
+      "title": "夢を抱いて〜はじまりのクリスロード〜",
+      "artist": "Rake",
+      "rating": 2.5,
+      "id": "1ZDieCqb5nS4KD0XpR0oGp",
+      "uri": "spotify:track:1ZDieCqb5nS4KD0XpR0oGp",
+      "url": "https://open.spotify.com/track/1ZDieCqb5nS4KD0XpR0oGp",
+      "yt_op_url": "https://www.youtube.com/watch?v=mrxZ4W4OL4E",
+      "yt_song_url": "https://www.youtube.com/watch?v=6amdV40tkMA"
+    },
+    {
+      "title": "流れ星 〜Shooting Star〜",
+      "artist": "Home Made Kazoku",
+      "rating": 2.5,
+      "id": "0lTk2LRaRNybgkKn4Q8PQz",
+      "uri": "spotify:track:0lTk2LRaRNybgkKn4Q8PQz",
+      "url": "https://open.spotify.com/track/0lTk2LRaRNybgkKn4Q8PQz",
+      "yt_op_url": "https://www.youtube.com/watch?v=rNa1rMkO3Mk",
+      "yt_song_url": "https://www.youtube.com/watch?v=4bKeOjbXCaU"
+    },
+    {
+      "title": "紅蓮",
+      "artist": "DOES",
+      "rating": 2.5,
+      "id": "0ldzDKNON23ajcssPHjTKH",
+      "uri": "spotify:track:0ldzDKNON23ajcssPHjTKH",
+      "url": "https://open.spotify.com/track/0ldzDKNON23ajcssPHjTKH",
+      "yt_op_url": "https://www.youtube.com/watch?v=a5l2OF1byrE",
+      "yt_song_url": "https://www.youtube.com/watch?v=WsEhTgPgTKg"
+    },
+    {
+      "title": "自転車",
+      "artist": "ORESKABAND",
+      "rating": 2.5,
+      "id": "3abl06N92fbHupUhgM8war",
+      "uri": "spotify:track:3abl06N92fbHupUhgM8war",
+      "url": "https://open.spotify.com/track/3abl06N92fbHupUhgM8war",
+      "yt_op_url": "https://www.youtube.com/watch?v=qAm4I-6LkYA",
+      "yt_song_url": "https://www.youtube.com/watch?v=PzS98lsyZD8"
+    },
+    {
+      "title": "風",
+      "artist": "Yamazaru",
+      "rating": 2.5,
+      "id": "19yMWtwmIY2IzThaHG4IEV",
+      "uri": "spotify:track:19yMWtwmIY2IzThaHG4IEV",
+      "url": "https://open.spotify.com/track/19yMWtwmIY2IzThaHG4IEV",
+      "yt_op_url": "https://www.youtube.com/watch?v=PZ5jBl3yJ0s",
+      "yt_song_url": "https://www.youtube.com/watch?v=bbWeswb4xxU"
+    },
+    {
+      "title": "distance",
+      "artist": "Long Shot Party",
+      "rating": 2.0,
+      "id": "17zGkwutNrdgAAfC61QLWF",
+      "uri": "spotify:track:17zGkwutNrdgAAfC61QLWF",
+      "url": "https://open.spotify.com/track/17zGkwutNrdgAAfC61QLWF",
+      "yt_op_url": "https://www.youtube.com/watch?v=r6EPMvIhtyA",
+      "yt_song_url": "https://www.youtube.com/watch?v=dFJOXUXF-FA"
+    },
+    {
+      "title": "For You",
+      "artist": "AZU",
+      "rating": 2.0,
+      "id": "3X0CWpuoxmhYOmKL2oVIpZ",
+      "uri": "spotify:track:3X0CWpuoxmhYOmKL2oVIpZ",
+      "url": "https://open.spotify.com/track/3X0CWpuoxmhYOmKL2oVIpZ",
+      "yt_op_url": "https://www.youtube.com/watch?v=zCjW8qc1aGo",
+      "yt_song_url": "https://www.youtube.com/watch?v=AD1-R7PxYx8"
+    },
+    {
+      "title": "I Can Hear",
+      "artist": "DISH//",
+      "rating": 2.0,
+      "id": "3QYFjhFAt0jt2KUm3POgEF",
+      "uri": "spotify:track:3QYFjhFAt0jt2KUm3POgEF",
+      "url": "https://open.spotify.com/track/3QYFjhFAt0jt2KUm3POgEF",
+      "yt_op_url": "https://www.youtube.com/watch?v=WZhtqfs-Wzw",
+      "yt_song_url": "https://www.youtube.com/watch?v=BqUilwtZoTc"
+    },
+    {
+      "title": "Long Kiss Good Bye",
+      "artist": "HALCALI",
+      "rating": 2.0,
+      "id": "5SPwzvYuJCkeXmbwi3lVID",
+      "uri": "spotify:track:5SPwzvYuJCkeXmbwi3lVID",
+      "url": "https://open.spotify.com/track/5SPwzvYuJCkeXmbwi3lVID",
+      "yt_op_url": "https://www.youtube.com/watch?v=K7Ql4jcciEY",
+      "yt_song_url": "https://www.youtube.com/watch?v=JwMkT_vlnGs"
+    },
+    {
+      "title": "Moshimo",
+      "artist": "Daisuke",
+      "rating": 2.0,
+      "id": "6qcj0oCHsCJSexlsVV6Ghr",
+      "uri": "spotify:track:6qcj0oCHsCJSexlsVV6Ghr",
+      "url": "https://open.spotify.com/track/6qcj0oCHsCJSexlsVV6Ghr",
+      "yt_op_url": "https://www.youtube.com/watch?v=ta48lV6pnok",
+      "yt_song_url": "https://www.youtube.com/watch?v=OpL3A0_vnFI"
+    },
+    {
+      "title": "さよなら世界",
+      "artist": "Kishidan",
+      "rating": 2.0,
+      "id": "23nU3OCGAL2qD3LNkJxJbI",
+      "uri": "spotify:track:23nU3OCGAL2qD3LNkJxJbI",
+      "url": "https://open.spotify.com/track/23nU3OCGAL2qD3LNkJxJbI",
+      "yt_op_url": "https://www.youtube.com/watch?v=209y6fh-7VM",
+      "yt_song_url": "https://www.youtube.com/watch?v=iU4CHMbL--o"
+    },
+    {
+      "title": "キミモノガタリ",
+      "artist": "Little by Little",
+      "rating": 2.0,
+      "id": "6b7BqSkpIK9Qmt3t57Rvwt",
+      "uri": "spotify:track:6b7BqSkpIK9Qmt3t57Rvwt",
+      "url": "https://open.spotify.com/track/6b7BqSkpIK9Qmt3t57Rvwt",
+      "yt_op_url": "https://www.youtube.com/watch?v=4LBF4B_c89U",
+      "yt_song_url": "https://www.youtube.com/watch?v=n5EiVGT3oQM"
+    },
+    {
+      "title": "月の大きさ",
+      "artist": "Nogizaka46",
+      "rating": 2.0,
+      "id": "4bY2oZGA5Br3pTE1Jd1IfY",
+      "uri": "spotify:track:4bY2oZGA5Br3pTE1Jd1IfY",
+      "url": "https://open.spotify.com/track/4bY2oZGA5Br3pTE1Jd1IfY",
+      "yt_op_url": "https://www.youtube.com/watch?v=YxR3D_a7jUU",
+      "yt_song_url": "https://www.youtube.com/watch?v=C3dPPRHUuK0"
+    },
+    {
+      "title": "道 〜to you all",
+      "artist": "aluto",
+      "rating": 2.0,
+      "id": "2Aq726y1hKsStf9Bmofxjs",
+      "uri": "spotify:track:2Aq726y1hKsStf9Bmofxjs",
+      "url": "https://open.spotify.com/track/2Aq726y1hKsStf9Bmofxjs",
+      "yt_op_url": "https://www.youtube.com/watch?v=jufVjjtiDko",
+      "yt_song_url": "https://www.youtube.com/watch?v=PPUdFkkyVlw"
+    },
+    {
+      "title": "Totsugeki Rock - The Cro Magnons - Cover - From anime \"Naruto\"",
+      "artist": "Johan Yusof",
+      "rating": 1.5,
+      "id": "4VlO8ljyrk51ohOk3tYzLm",
+      "uri": "spotify:track:4VlO8ljyrk51ohOk3tYzLm",
+      "url": "https://open.spotify.com/track/4VlO8ljyrk51ohOk3tYzLm",
+      "yt_op_url": "https://www.youtube.com/watch?v=VO-df6nkLhc",
+      "yt_song_url": "https://www.youtube.com/watch?v=OsSlhK-DE44"
+    },
+    {
+      "title": "さよならメモリー",
+      "artist": "7!!",
+      "rating": 1.5,
+      "id": "65dTOvIBMqUgBfv9oqtces",
+      "uri": "spotify:track:65dTOvIBMqUgBfv9oqtces",
+      "url": "https://open.spotify.com/track/65dTOvIBMqUgBfv9oqtces",
+      "yt_op_url": "https://www.youtube.com/watch?v=fjR48Lxp_O0",
+      "yt_song_url": "https://www.youtube.com/watch?v=VXZERG-ZlTk"
+    },
+    {
+      "title": "目覚めろ! 野生 (NARUTO-ナルト-疾風伝)",
+      "artist": "ANDY",
+      "rating": 1.5,
+      "id": "2ssLiYLOzBdiHVUn6VwcPH",
+      "uri": "spotify:track:2ssLiYLOzBdiHVUn6VwcPH",
+      "url": "https://open.spotify.com/track/2ssLiYLOzBdiHVUn6VwcPH",
+      "yt_op_url": "https://www.youtube.com/watch?v=9FsGH1nT_k0",
+      "yt_song_url": "https://www.youtube.com/watch?v=YtO9TDXidGQ"
+    },
+    {
+      "title": "素直な虹",
+      "artist": "Surface",
+      "rating": 1.5,
+      "id": "0JnAMQGCvjyWKGwNm38jAM",
+      "uri": "spotify:track:0JnAMQGCvjyWKGwNm38jAM",
+      "url": "https://open.spotify.com/track/0JnAMQGCvjyWKGwNm38jAM",
+      "yt_op_url": "https://www.youtube.com/watch?v=HdqlpZO-Mlg",
+      "yt_song_url": "https://www.youtube.com/watch?v=dHZRfoEl9cA"
+    },
+    {
+      "title": "言葉のいらない約束",
+      "artist": "HoneyWorks",
+      "rating": 1.5,
+      "id": "4OMRC8O4mVOmDMDs9RpgH0",
+      "uri": "spotify:track:4OMRC8O4mVOmDMDs9RpgH0",
+      "url": "https://open.spotify.com/track/4OMRC8O4mVOmDMDs9RpgH0",
+      "yt_op_url": "https://www.youtube.com/watch?v=TFuEemFXsYQ",
+      "yt_song_url": "https://www.youtube.com/watch?v=Nj261hGnTpM"
+    }
+  ]
+}

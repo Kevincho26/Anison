@@ -1283,4 +1283,275 @@ body[data-md-state="search"] .amc-az-wrap{
   }
 }
 
+/* =========================================================
+   Best songs – Layout limpio (Título | Artista | Rating)
+   1 línea + ellipsis en título y artista
+   ========================================================= */
 
+.anison-best-summary{
+  margin: .2rem 0 .8rem 0;
+}
+
+.anison-best-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.anison-best-list li{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; /* title | artist | rating */
+  column-gap: 1rem;
+  align-items: center;
+  padding: .55rem .6rem;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+
+/* Title link */
+.anison-best-list li > a{
+  min-width: 0;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: .98rem;     /* un poco más pequeño */
+  font-weight: 650;
+}
+
+/* Artist */
+.anison-best-artist{
+  min-width: 0;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: .75;
+  font-size: .95rem;
+}
+
+/* Rating fixed right */
+.anison-best-rating{
+  float: none !important;
+  justify-self: end;
+  white-space: nowrap;
+  font-weight: 700;
+  opacity: .9;
+  font-size: .95rem;
+}
+
+.anison-best-num{
+  opacity: .75;
+  font-weight: 650;
+  margin-left: .25rem;
+}
+
+/* Hover suave para filas */
+.anison-best-list li:hover{
+  background: rgba(253, 76, 76, .08); /* tu rojo con transparencia */
+  border-radius: 12px;
+}
+.anison-best-list li > a{
+  color: var(--md-default-fg-color) !important;
+}
+.anison-best-list li > a:hover{
+  color: var(--brand-red) !important;
+}
+
+/* =========================================================
+   Best songs – estilo final
+   - estrellas rojas en ambos modos
+   - título: rojo en dark / negro en light
+   - tamaños más pequeños (título + artista)
+   ========================================================= */
+
+/* 1) Estrellas (y ½) siempre en rojo */
+.anison-best-rating{
+  color: var(--brand-red) !important;
+}
+
+/* 2) Tamaños más pequeños */
+.anison-best-list li > a{
+  font-size: .85rem !important;   /* antes ~.98 */
+  font-weight: 750 !important;
+}
+
+.anison-best-artist{
+  font-size: .80rem !important;   /* antes ~.95 */
+}
+
+/* 3) Título por modo */
+[data-md-color-scheme="default"] .anison-best-list li > a{
+  color: #000 !important;               /* light: negro */
+  font-weight: 800 !important;
+}
+
+[data-md-color-scheme="slate"] .anison-best-list li > a{
+  color: var(--brand-red) !important;   /* dark: rojo */
+  font-weight: 800 !important;
+}
+
+/* Hover (mantén tu rojo) */
+.anison-best-list li > a:hover{
+  color: var(--brand-red) !important;
+}
+
+/* =========================================================
+   Best songs – Toggle Best / Todas
+   ========================================================= */
+
+.anison-best-header{
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: .75rem;
+  margin: .2rem 0 .4rem 0;
+}
+
+.anison-best-title{
+  font-weight: 800;
+  font-size: 1.05rem;
+}
+
+.anison-best-toggle{
+  display: inline-flex;
+  gap: .35rem;
+  padding: .25rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,.06);
+  margin: .35rem 0 .65rem 0;
+}
+
+.anison-best-pill{
+  border: 1px solid rgba(255,255,255,.12);
+  background: transparent;
+  color: var(--md-default-fg-color);
+  font-weight: 750;
+  font-size: .86rem;
+  padding: .35rem .7rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.anison-best-pill.is-active{
+  background: var(--brand-red);
+  border-color: var(--brand-red);
+  color: #fff;
+}
+
+/* light mode: el contenedor se ve más sutil */
+[data-md-color-scheme="default"] .anison-best-toggle{
+  background: rgba(0,0,0,.06);
+}
+[data-md-color-scheme="default"] .anison-best-pill{
+  border-color: rgba(0,0,0,.12);
+}
+
+/* Estrellas con “media estrella” real (relleno por porcentaje) */
+.anison-stars{
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+  letter-spacing: .08em;
+  font-weight: 800;
+  font-size: .95rem;
+  color: rgba(253,76,76,.25); /* base tenue (gris/rojo suave) */
+}
+
+.anison-stars::after{
+  content: "★★★★★";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--pct, 0%);
+  overflow: hidden;
+  white-space: nowrap;
+  color: var(--brand-red); /* relleno rojo */
+}
+
+/* Best songs: bloque derecho (rating + botones) */
+.anison-best-right{
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  justify-self: end;
+  white-space: nowrap;
+}
+
+/* Botones mini (OP / YT) */
+.anison-yt-actions{
+  display: inline-flex;
+  gap: .35rem;
+}
+
+.anison-yt-btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .14rem .42rem;
+  border-radius: 999px;
+  border: 1px solid var(--brand-red);
+  color: var(--brand-red) !important;
+  font-weight: 850;
+  font-size: .74rem;
+  line-height: 1.1;
+  text-decoration: none !important;
+}
+
+.anison-yt-btn:hover{
+  background: var(--brand-red);
+  color: #fff !important;
+}
+
+.anison-best-list li{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+/* Mini botones OP / YT: negro en light, blanco en dark (sin cambiar hover rojo) */
+[data-md-color-scheme="default"] .anison-yt-btn{
+  color: #000 !important;
+  border-color: rgba(0,0,0,.55) !important;
+}
+
+[data-md-color-scheme="slate"] .anison-yt-btn{
+  color: #fff !important;
+  border-color: rgba(255,255,255,.45) !important;
+}
+
+/* Hover se mantiene: rojo sólido + letras blancas */
+.anison-yt-btn:hover{
+  background: var(--brand-red) !important;
+  border-color: var(--brand-red) !important;
+  color: #fff !important;
+}
+
+/* =========================================================
+   Best songs – reducir tamaños (título, artista, estrellas, número)
+   ========================================================= */
+
+/* Título (canción) */
+.anison-best-list li > a{
+  font-size: .80rem !important;
+}
+
+/* Artista */
+.anison-best-artist{
+  font-size: .76rem !important;
+}
+
+/* Estrellas (si usas el span .anison-stars) */
+.anison-stars{
+  font-size: .80rem !important;
+}
+
+/* Rating numérico */
+.anison-best-num{
+  font-size: .80rem !important;
+}
+
+/* (Opcional) también reduce un poco el espacio vertical de cada fila */
+.anison-best-list li{
+  padding: .40rem .55rem !important;
+}
