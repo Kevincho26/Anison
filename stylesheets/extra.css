@@ -1603,10 +1603,10 @@ body[data-md-state="search"] .amc-az-wrap{
     margin-left: 0 !important;
   }
 
-  /* Reduce padding lateral de cada fila */
+  /* 2) Control fino del espacio en cada fila:
+        menos izquierda, más derecha */
   .anison-best-list li{
-    padding-left: -.25rem !important;
-    padding-right: .0rem !important;
+    padding: .45rem 1rem .45rem .2rem !important; /* top right bottom left */
   }
 }
 
